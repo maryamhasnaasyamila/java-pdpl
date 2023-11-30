@@ -1,5 +1,4 @@
 // Ini adalah main class
-
 public class FactoryPatternDemo {
 
    public static void main(String[] args) {
