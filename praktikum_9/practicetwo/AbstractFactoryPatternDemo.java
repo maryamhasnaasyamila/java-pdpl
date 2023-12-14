@@ -3,7 +3,7 @@ package practicetwo;
 public class AbstractFactoryPatternDemo {
    public static void main(String[] args) {
       //get shape factory
-      AbstractFactory shapeFactory = FactoryProducer.getFactory(false);
+      AbstractFactory shapeFactory = FactoryProducer.getFactory(true);
       //get an object of Shape Rectangle
       Shape shape1 = shapeFactory.getShape("RECTANGLE");
       //call draw method of Shape Rectangle
